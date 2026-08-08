@@ -15,3 +15,8 @@ Console.WriteLine("Digite a classe do seu personagem");
 string role = Console.ReadLine();
 
 Console.WriteLine("Olá " + name + " você é um " + race + " e um " + role);
+
+//Entrada de dados - Atributos do personagem
+
+Console.WriteLine("Digite o valor do seu atributo de Força");
+int strength = int.Parse(Console.ReadLine());
