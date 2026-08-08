@@ -3,14 +3,15 @@
 //Entrada de dados - Nome do persoganem
 Console.WriteLine("Digite o nome do seu personagem");
 string name = Console.ReadLine();
-Console.WriteLine("Olá " +  name);
+
 
 //Entrada de dados - Raça do personagem
 Console.WriteLine("Digite a raça do seu personagem");
 string race = Console.ReadLine();
-Console.WriteLine("Olá " + race);
+
 
 //Entrada de dados - Classe do personagem
 Console.WriteLine("Digite a classe do seu personagem");
 string role = Console.ReadLine();
-Console.WriteLine("Olá " + role);
+
+Console.WriteLine("Olá " + name + " você é um " + race + " e um " + role);
