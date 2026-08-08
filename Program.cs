@@ -14,9 +14,18 @@ string race = Console.ReadLine();
 Console.WriteLine("Digite a classe do seu personagem");
 string role = Console.ReadLine();
 
-Console.WriteLine("Olá " + name + " você é um " + race + " e um " + role);
+Console.WriteLine("Olá " + name + " você é um " + race + " e um " + role +  "\n");
+
+Console.WriteLine("Agora vamos definir os atributos do seu personagem, digite um valor de 1 a 10 para cada atributo." + "\n");
 
 //Entrada de dados - Atributos do personagem
-
 Console.WriteLine("Digite o valor do seu atributo de Força");
 int strength = int.Parse(Console.ReadLine());
+Console.WriteLine("Digite o valor do seu atributo de Habilidade");
+int hability = int.Parse(Console.ReadLine());
+Console.WriteLine("Digite o valor do seu atributo de Constituição");
+int constitution = int.Parse(Console.ReadLine());
+Console.WriteLine("Digite o valor do seu atributo de Armadura");
+int armor = int.Parse(Console.ReadLine());
+Console.WriteLine("Digite o valor do seu atributo de Poder de Fogo");
+int firepower = int.Parse(Console.ReadLine());
